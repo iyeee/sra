@@ -15,7 +15,7 @@ SRA
 + ERD(Entity-Relationship Diagram)实体关系图
 + DFD(Data Flow Diagram)数据流图
 + DD(Data Dictionary)，数据字典
-+ SERU(Subject area Event Report Use case)
++ SERU(Subject area Event Report Use case) 主题subject -> 事件event/报告report -> 用例use case
 + SRS:Software Requirements Specification软件需求规范说明书
 + TE:Tabular expressions
 + ROI:Return on Investment(ROI)投资回报率
@@ -437,7 +437,7 @@ SRA
   + Inception
     + 开始过程(业务需求，市场机会，好主意，…)，业务案例，可行性研究，系统范围，风险，等等。
 
-  + elicitation需求抽取
+  + elicitation需求获取
     + 需求与利益相关者协商发现
 
   + analysis and negotiation需求分析和谈判
@@ -462,11 +462,11 @@ SRA
 
     + 是否捕获了所有相关的需求
 
-  + 文档-定义良好的需求
+  + 文档化-定义良好的需求
 
     + 所有的需求都是根据标准描述的吗?
 
-  + 协议-商定的要求
+  + 一致性-商定的要求
 
     + 是否达成了共同协议?
 
@@ -492,7 +492,7 @@ SRA
 
       ![image-20211224173135695](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211224173135695.png)
 
-### Chapter 2 Requirements Inception
+### Chapter 2 Requirements Inception（启动）
 
 + Requirements Inception的主要任务
 
@@ -514,18 +514,18 @@ SRA
 
 + 它的主要任务包括
 
-  + 确定业务需求
+  + 1.确定业务需求
 
-    + 业务机会
+    + 商业机会
       + 描述市场机会、竞争市场、正在解决或改进的业务问题、建议解决方案的优势、将要解决的问题...
-    + 业务目标和成功标准 
+    + 商业目标和成功标准 
       + 产品将以定量和可测量的方式提供重要的商业利益，如何衡量成功，对成功有重大影响的因素...
     + 客户或市场需求 
       + 客户当前遇到的问题将得到解决
     + 业务风险 
       + 与开发或不开发产品相关的主要风险（市场竞争、时间安排、用户接受、实施问题…） 
 
-  + Gain agreement on problem definition 就问题定义达成一致
+  + 2.Gain agreement on problem definition 就问题定义达成一致
 
     + Gain agreement on problem definition 远景、界限、范围
 
@@ -545,7 +545,7 @@ SRA
 
       + 在输入和输出之间绘制边界
 
-  + 确定利益相关者
+  + 3.确定利益相关者
 
      谁使用这个系统？
 
@@ -563,7 +563,7 @@ SRA
 
     ![image-20211219194036873](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211219194036873-16399140379054.png)
 
-  + 确定制约因素和风险
+  + 4.确定约束和风险
 
     + 经济(如:成本、许可问题)
 
@@ -579,7 +579,7 @@ SRA
 
       ![image-20211219192112089](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211219192112089-16399128740743.png)
 
-  + 进行可行性研究
+  + 5.进行可行性研究
 
     + 要确定一个软件开发项目是否可以完成:
       + …是可能的吗?
@@ -626,17 +626,17 @@ SRA
 + Project Vision & Scope Document
 
   + 项目愿景和范围文件
-    + 1.业务要求
-      + 1.1.背景、业务机会和客户需求
-      + 1.2.业务目标和成功标准
-      + 1.3.业务风险
-    + 2.解决方案愿景
-      + 2.1.远景说明
-      + 2.2.主要特点
-      + 2.3.假设和依赖性
-    + 3.范围和限制
-      + 3.1.初始和后续版本范围
-      + 3.2限制和排除
+    + 1.Business Requirements业务要求
+      + 1.1.Background, Business Opportunity, and Customer Needs背景、业务机会和客户需求
+      + 1.2.Business Objectives and Success Criteria业务目标和成功标准
+      + 1.3.Business Risks业务风险
+    + 2.Vision of the Solution 解决方案愿景
+      + 2.1.Vision Statement前景概述
+      + 2.2.Major Features主要特性
+      + 2.3.Assumptions and Dependencies假设和依赖性
+    + 3.Scope and Limitations范围和限制
+      + 3.1.Scope of Initial and Subsequent Releases初始和后续版本范围
+      + 3.2Limitations and Exclusions限制和排除
     + 4.商业背景
       + 4.1.利益相关者简介
       + 4.2.项目优先事项
@@ -911,7 +911,7 @@ SRA
 
   + i中对象之间的关系*
 
-    + 手段-目的链接:记录哪些要素(软目标、任务和/或资源)有助于实现目标
+    + 目的-手段链接:记录哪些要素(软目标、任务或资源)有助于实现目标
     + ![image-20211219210647816](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211219210647816.png)
     + 贡献链接:记录任务或其他软目标对软目标的积极或消极影响
     + ![image-20211219210655495](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211219210655495.png)
@@ -920,14 +920,14 @@ SRA
 
   + 两种目标模型
 
-    + 战略依赖模型(SDM)  
+    + 策略依赖模型(SDM)  
 
       + 记录了参与者之间的依赖关系
       + 记录了他们所依赖的任务、目标、软目标和资源
 
       ![image-20211219211207091](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211219211207091.png)
 
-    + 战略理论模型(SRM)  
+    + 策略原理模型(SRM)  
 
       + 通过定义参与者的内部结构详细说明了每个参与者
       + 为外部依赖关系提供了基本原理
@@ -943,8 +943,8 @@ SRA
     + 目标模型
     + 障碍模型
     + 对象模型
-    + 代理模型
-    + 运营模式
+    + 主体模型
+    +  操作模式
     + 行为模型
 
   + KAOS框架的基本结构，用于为目标建模并将目标责任分配给代理
@@ -1228,23 +1228,23 @@ SRA
     险？
     ◼对于关键零部件是否有替代供应商？
 
-### Chapter 3 Requirements Elicitation
+### Chapter 3 Requirements Elicitation（获取）
 
-+ 1关于需求启发式
-+ 2启发式技术
++ 1关于需求获取
++ 2需求获取技术
 + 3场景
 
 #### 1 About Requirements Elicitation
 
-+ 1.1需求挖掘的定义
-  + 需求挖掘是“通过与客户、系统用户和其他参与系统开发的人沟通，发现系统需求的过程”
++ 1.1需求获取的定义
+  + 需求获取是“通过与客户、系统用户和其他参与系统开发的人沟通，发现系统需求的过程”
   + 三个子活动:
-    + 识别相关需求来源
+    + 识别相关的需求来源
       + 未考虑相关需求源导致需求规范不完整
       + 识别未知相关需求源的过程
         + 第一步：识别潜在需求源
         + 第二步：评估需求源的相关性
-    + 挖掘现有需求
+    + 抽取现有需求
       + Eliciting existing requirements from **stakeholders** 引出利益相关者的现有需求
         + 访谈、问卷调查、观察
       + Eliciting existing requirements from **documents** 引出文档中的现有需求
@@ -1253,7 +1253,7 @@ SRA
         + 使用或观察系统
         + 采访系统的利益相关者
         + 分析系统文档
-    + 开发新的和创新的需求
+    + 开发新的创新性需求
       + 开发新的和创新的需求是一个创造性的过程，
       + 可以通过应用创造性技术(头脑风暴、奥斯本检查表)来支持
       + 将不同观点的不同利益相关者聚集在一起
@@ -1304,7 +1304,7 @@ SRA
         + 协商
       + 缺乏用户参与
         + 为用户参与提供方便条件
-+ 1.2需求挖掘的过程
++ 1.2需求获取的过程
   + 系统开发人员和工程师与客户和最终用户
     + 密切关系找到更多关于要解决的问题
     + 来描述系统的功能
@@ -1314,7 +1314,7 @@ SRA
   + 引出需要及时完成
   + 不仅仅是一个简单的过程需求，但是一个高度复杂的过程
 
-+ 1.3需求挖掘中的需求工件
++ 1.3需求获取中的需求工件
   + Elicitation Notes笔记
     + 用户需求、问题领域知识和解决方案的约束
     + 可能组织不善、冗余、遗漏、不一致
@@ -1323,7 +1323,7 @@ SRA
   + 正式文件
     + 用例图及用例说明
 
-#### 2 Elicitation Techniques
+#### 2 Elicitation Techniques 需求获取技术
 
 + 2.1 Interviews 访谈
   + 需求工程师或分析师与不同的涉众讨论系统，并建立对他们需求的理解
@@ -1402,7 +1402,7 @@ SRA
     + 明确定义的答案
     + 培训的利益相关者
     + 选择正确的文档形式
-+ 2.3 透视式阅读 Perspective-based Reading
++ 2.3 基于视角的阅读 Perspective-based Reading
   + 需要阅读的文件包括：
     + 法律、标准、开发指南、用户手册、系统架构文档、需求规范、测试文档等。
   + 准备
@@ -1556,7 +1556,7 @@ SRA
       + 示例:禁止的负面场景
         + 杰克将他的银行卡插入自动取款机的插槽。杰克输入他的个人识别号码和取款金额。自动取款机从杰克的账户中收取所需金额。ATM机在发钱时，发钱机制发生故障。
   
-  + 误用场景
+  + 不当使用场景
     + 恶意行动者
     + 违反利益相关者的意图使用
     + 例:滥用汽车安全系统
@@ -1578,7 +1578,7 @@ SRA
         + eg.解释场景“自动制动操纵”
           + 由于两辆车之间的距离迅速缩短，发生追尾事故的风险很高。快速改变车道可能会导致汽车打滑或旋转，因为汽车正在高速公路上以超过55英里每小时的高速行驶。因此，在换道之前，汽车的速度必须降低。因此，机载计算机启动一个自动紧急制动操纵。由于防抱死制动系统可以确保汽车在刹车时保持可操控性，卡尔可以在操纵过程中安全地换道。为了避免司机受到自动刹车的惊吓，系统会通知卡尔紧急刹车的启动。在与前面行驶的汽车恢复安全距离后，车载电脑将控制权交还给卡尔。系统通知卡尔控制权的转移，以便他准备接管控制权。
   
-  + 实例、类型和混合场景
+  + 实例、类型化和混合场景
     + 实例场景
       + 描述具体参与者之间的具体(现有的或设想的)交互序列
       + 示例:Instance Scenario实例场景
@@ -1616,10 +1616,10 @@ SRA
   
         ![image-20211220161753551](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211220161753551.png)
   
-    + 主要场景、备选场景和异常场景
+    + 主场景、可替换场景和例外场景
       + 主场景
         + 满足目标的最常见交互顺序
-      + 替代场景
+      + 可替代场景
         + 可以代替主场景执行的交互序列
         + 实现与主要场景相关的目标
           + eg.主要场景摘录:
@@ -1630,7 +1630,7 @@ SRA
             + 步骤11:…
             + 步骤12a:驱动程序从目的地列表中选择一个目的地。
             + 步骤13:…
-      + 异常场景
+      + 例外场景
         + 仅在特殊事件发生时执行的交互序列
         + 导致无法满足与原始场景相关的一个或多个目标
           + 除主场景外:
@@ -1836,7 +1836,7 @@ SRA
 
   + 如何分析?
 
-    + Problem Checklists问题清单
+    + Problem Checklists分析清单检查表
 
       + 过早的设计
         + 需求是否包括过早的设计或实现信息?
@@ -1854,7 +1854,7 @@ SRA
         + 给定将用于实现系统的技术，需求是现实的吗?
       + 需求的可测试性
 
-    + Interaction Matrix交互矩阵
+    + Interaction Matrix分析需求交互矩阵
 
       + 需求沿着矩阵的行和列列出
 
@@ -1907,11 +1907,11 @@ SRA
   + 1970年代，Yourdon, Constantine和De Marco
   + 结构化分析(SA)将系统视为过程的集合。流程可以分解为子流程。最终的子流程可以映射到一个函数中。所有的系统都可以由函数来构造。
   + 这是一个用不同符号模拟数据流的过程。
-    + 功能建模—数据流图
-    + 数据建模—实体关系图
-    + 行为建模—状态图
+    + 功能模型—数据流图
+    + 数据模型—实体关系图
+    + 行为模型—状态转换图
 
-+ 2.2 Functional Modelling--Data Flow Diagram
++ 2.2 功能模型—数据流图 Functional Modelling--Data Flow Diagram
 
   + 元素
 
@@ -1949,7 +1949,7 @@ SRA
 
     + 分步细化功能
 
-+ 2.3 Data Modelling---Entity-Relationship Diagram(ERD)
++ 2.3 数据模型—实体关系图 Data Modelling---Entity-Relationship Diagram(ERD)
 
   +  实体
 
@@ -1977,7 +1977,7 @@ SRA
 
     ![image-20211220190800775](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211220190800775.png)
 
-+ 2.4 Behavioral Modelling---Statechart
++ 2.4 行为模型—状态转换图 Behavioral Modelling---Statechart
 
   +  行为模型用于记录系统的反应行为。
 
@@ -2001,7 +2001,7 @@ SRA
 
   + Mealy和Moore自动机
 
-    + 有限状态传感器（FST）通过输出字母![image-20211220192414133](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20211220192414133.png) 和一个输出函数![image-20211220192348310](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211220192348310.png)增强FA
+    + 有限状态传感器（FST）通过输出字母    和一个输出函数![image-20211220192348310](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211220192348310.png)增强FA
     + Mealy自动机：自动机的输出取决于当前状态和输入符号
     + 摩尔自动机：自动机的输出仅取决于当前状态
 
@@ -2102,7 +2102,7 @@ SRA
     + 功能建模-用例图
     + 动态建模-序列图、状态图
 
-+ 3.2 Domain modelling领域建模
++ 3.2 Domain modelling 领域建模
 
   + 类:
 
@@ -2178,7 +2178,7 @@ SRA
 
 #### 4 Requirements Analysis and Modeling in SERU(Subject area Event Report Use case) Framework
 
-+ 4.1周期1:明确框架和分支机构
++ 4.1Cycle 1: Clarify the framework and branches周期1:明确框架和分支机构
 
   + 任务：理清需求的结构框架(领域类图)和行为脉络(流程图和用例图)
 
@@ -2194,7 +2194,7 @@ SRA
 
     ![image-20211220200300909](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211220200300909.png)
 
-  + 4.1.1业务流程分析
+  + 4.1.1Business flow analysis业务流程分析
 
     + 业务流程分析的要点与产物
 
@@ -2219,7 +2219,7 @@ SRA
 
     + 数据流图应用基础与要点(see 2.2)
 
-  +  4.1.2业务实体分析
+  +  4.1.2Business entities analysis业务实体分析
 
     + 领域建模/概念建模
     + 分析过程：
@@ -2231,9 +2231,9 @@ SRA
       + 类图(see 3.2)
       +  ER图(see 2.3)
 
-  +  4.1.3角色和用例分析(参见3.3、3.4)
+  +  4.1.3Roles and Use Case Analysis角色和用例分析(参见3.3、3.4)
 
-+ 4.2周期2:补充要求详情
++ 4.2Cycle 2: Supplement requirements details周期2:补充要求详情
 
   + 细化领域类的数据窗口、字段、格式、派生数据的计算方法等
 
@@ -2958,6 +2958,11 @@ SRA
 
   ![image-20211224135516447](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211224135516447.png)
 
+  + 四变量
+    + 输入变量
+    + 输出变量
+    + 监视变量
+    + 控制变量
   + 整个**系统(硬件&软件)**是监视变量和控制变量之间的关系(REQ和NAT)
   + 输入设备是监视变量和输入变量之间的关系IN
   + 输出设备是输出变量和控制变量之间的关系OUT
@@ -3220,14 +3225,16 @@ SRA
 
     ![image-20211224144226264](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211224144226264.png)
 
-+ 1.2Verification和 Validation(V&V)
++ 1.2Verification验证和 Validation确认(V&V)
 
   + Validation 和 Verification的定义
-    +   Validation ：我是否构建了正确的系统？
-    +   Verification：我构建的系统正确吗？
-  + Verification 和 Verification的结果和答案
-    +  Validation ：适当和不适当
-    +   Verification：正确和不正确 
+    + 都是分析性质量保证手段
+    + 需求确认(Validation)：
+      + 我是否建立了正确的系统？
+      + 适当、不恰当
+    + 需求验证(Verification)：
+      + 我是否正确建立系统？
+      + 正确、错误
 
 + 1.3需求工程中的V&V
 
@@ -3257,12 +3264,14 @@ SRA
 
   ![image-20211224145119273](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211224145119273.png)
 
-#### 2 Requirements Verification Techniques
+#### 2 Requirements Verification Techniques 需求验证技术
 
-+ 2.1 Inspections 检查
++ 2.1 Inspections需求评审
+  
   + 书面材料的质量改进过程
   + 检查什么？
     + 软件需求规范
+      + Comprehensibility, Reduncy, Completeness, Ambiguity,Consistency, Organization, Standard Compliant, Traceability
       + 可理解性、冗余性、完整性、模糊性、一致性、组织性、符合标准、可追溯性
     + 如何检查？ 
       + Ad hoc没有预先规划的软件测试方法
@@ -3304,7 +3313,7 @@ SRA
       + 过程和组织:严格定义
       + 工件:尺寸、复杂性、质量
       + 检查团队成员的选择:数量、覆盖范围、经验
-
+  
 + 2.2Prototyping and Simulation 原型和模拟
 
   + 好处:
@@ -3319,7 +3328,7 @@ SRA
     + 文件质量
     + 原型的细节级别
 
-+ 2.3Functional Test Design 功能测试设计
++ 2.3Functional Test Design 功能测试设计（开发测试用例）
 
   + 软件测试:
 
@@ -3391,7 +3400,7 @@ SRA
     + 涉众的支持
     + 可读性和可理解性
 
-+ 2.5Requirements Traceability 需求可追溯性
++ 2.5Requirements Traceability 需求可追溯性（利用跟踪关系）
 
   + 验证完整性:自上而下
 
@@ -3815,4 +3824,4 @@ SRA
   + 使用Word文档和数据库两种方式来存储并管理需求，使得RequisitePro兼有数据库的强大功能和Word的易用性
   + 可定制各种视图和过滤器，可进行优先级划分、链接需求并跟踪需求变更
 
-  ![image-20211224163352162](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211224163352162.png)
+  ![image-20211224163352162](https://cdn.jsdelivr.net/gh/iyeee/imgs/picgo/image-20211224163352162.png)、、、、、
